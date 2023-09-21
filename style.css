@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-1{
+    max-width:70px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.shopping{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 20px;
+}
+.demo-1{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    max-width: 600px;
+    padding: 20px 50px;
+}
+.demo-2{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    max-width: 600px;
+    padding: 20px 50px;
+}
+.demo-3{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    max-width: 600px;
+    padding: 20px 50px;
+}
+.demo-4{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    max-width: 600px;
+    padding: 20px 50px;
+}
+.demo-5{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    max-width: 600px;
+    padding: 20px 50px;
+}
+.button{
+    background:gold;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+.menu{
+    background-color: antiquewhite;
+    color: black;
+    height: 100%;
+    padding: 20px;
+}
+table{
+    border: 0px;
+    border-radius: 3px;
+    padding: 5px;
+    border-bottom: 1px solid white;
+}
+.menu.active{
+    visibility: hidden;
+}
+input[type="number"]{
+    max-width: 80px;
+}
